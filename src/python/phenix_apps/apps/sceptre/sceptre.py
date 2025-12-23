@@ -447,7 +447,7 @@ class Sceptre(AppBase):
                 # simulation file
                 kwargs = {
                     "src": f"{provider.metadata.simulation_file}",
-                    "dst": f"/usr/lib/python3/dist-packages/pybennu/providers/python/simulation.py",
+                    "dst": f"/etc/sceptre/simulation.py",
                     "description": "Python simulation file",
                 }
                 self.add_inject(hostname=provider.hostname, inject=kwargs)

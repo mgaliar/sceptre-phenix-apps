@@ -4,7 +4,7 @@
 debug             = ${debug}
 server-endpoint   = ${server_endpoint}
 publish-endpoint  = ${publish_endpoint}
-simulation-file = /usr/lib/python3/dist-packages/pybennu/providers/python/simulation.py
+simulation-file = /etc/sceptre/simulation.py
 % else:
 [power-solver-service]
 solver-type       = ${solver}
